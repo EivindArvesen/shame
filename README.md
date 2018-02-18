@@ -1,5 +1,5 @@
-# lock-your-screen
-    Shame! Shame! Shame!
+# SHAME
+> Shame! Shame! Shame!
 
 Shame your coworkers into locking their computers.
 
