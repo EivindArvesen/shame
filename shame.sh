@@ -9,7 +9,6 @@ declare -a images=(
     "https://quotefancy.com/media/wallpaper/1600x900/577682-Steve-Ballmer-Quote-Developers-developers-developers-developers.jpg"
     "http://edge.alluremedia.com.au/m/g/2018/01/linusfinger.jpg"
     "https://i.ytimg.com/vi/ebYum58Awpc/maxresdefault.jpg"
-
     "https://www.regjeringen.no/contentassets/8b710d0e46984465a927e867898ee1d8/6_3000.jpg"
     "https://www.cdn.tv2.no/images?imageUrl=http%3A%2F%2Fwww.cdn.tv2.no%2Fmultimedia%2FTV2%2Farchive%2F00862%2Fsxcae729_862968a.jpg&width=1000&height=563&compression=75"
     "https://pbx.blogg.no/?w=1200&url=https%3A%2F%2Fbloggfiler%2Eno%2Fnavideo%2Eblogg%2Eno%2Fimages%2F4595953-2036512-11-1515177192683%2Ejpg"
