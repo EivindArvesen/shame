@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Usage: curl -L https://git.io/shame | bash
+
 # Select a random image from politicians, memes, etc.
 declare -a images=(
     "https://images.vice.com/vice/images/articles/meta/2016/03/25/an-investigation-into-whether-or-not-donald-trump-is-sexy-1458922674.jpg?crop=1xw:0.7816842690383546xh;center,center&resize=1200:*"
@@ -21,8 +23,12 @@ declare -a images=(
 
 RANDOM_IMG=${images[$RANDOM % ${#images[@]} ]}
 
+#echo $RANDOM_IMG
+#exit
+
 # Download random image
 curl -L "$RANDOM_IMG" -o /tmp/img.jpg
 
 # Set wallpaper to random image
-osascript -e 'tell application "Finder" to tell every desktop to set desktop picture to POSIX file "/tmp/img.jpg"'
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/tmp/img.jpg"' # Background on current space on current screen
+#osascript -e 'tell application "System Events" to tell every desktop to set picture to POSIX file "/tmp/img.jpg"' # Background on all screens
