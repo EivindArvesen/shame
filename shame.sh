@@ -16,7 +16,6 @@ declare -a images=(
     "https://pbx.blogg.no/?w=1200&url=https%3A%2F%2Fbloggfiler%2Eno%2Fnavideo%2Eblogg%2Eno%2Fimages%2F4595953-2036512-11-1515177192683%2Ejpg"
     "https://i.ytimg.com/vi/MkRoAj2ZXfQ/maxresdefault.jpg"
     "https://sa.mnocdn.no/images/3e1a50eb-5799-4511-81c7-daf91ca1ccd9?fit=crop&h=1152&q=80&w=2048"
-    "https://www.dn.no/incoming/image2115253.ece/ALTERNATES/fullwidth/Skillingsboller%20LB.jpg"
     "https://i.imgur.com/CyFyMRL.jpg"
     "https://regmedia.co.uk/2017/01/05/tipsfedora.jpg?x=1200&y=794"
 )
